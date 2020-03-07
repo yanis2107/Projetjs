@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>la meteo chez vous!</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+<body>
+    <section id="app">
+        <input type="text" id="city"><button onclick="look()" id="btn">Chercher</button>
+        <h1> 
+            <span id="ville"></span>
+            <span class="tooltip">Tapez une autre ville si vous le souhaitez</span>
+        </h1>
+        <i class="wi"></i>
+        <h2>
+            <span id="temperature"></span> C° (<span id="conditions"></span>)
+        </h2>
+
+    </section>
+    <script src="assets/script.js"></script>
+    <script src="assets/jquery.min.js"></script>
+</body>
+</html>
